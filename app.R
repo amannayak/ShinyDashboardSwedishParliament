@@ -3,7 +3,7 @@ library(shinythemes)
 library(shinyjs)
 devtools::install_github("https://github.com/amannayak/swedishParlimentAPI.git" , upgrade = "always")
 library("swedishParlimentAPI")
-source("./Politician.R")
+#source("./Politician.R")
 dataContext = parliamentAPI()#calling API outside in order to download all required data
 jscode <- "shinyjs.closeWindow = function() { window.close(); }"
 shinyApp(
