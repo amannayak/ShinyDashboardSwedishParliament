@@ -19,7 +19,7 @@ shinyApp(
                                 start = "2000-01-01",
                                 end = "2010-01-01",
                                 min = "1990-01-01",
-                                max = "2100-01-01",
+                              #  max = "2100-01-01",
                                 format = "yyyy-mm-dd", startview = "month", weekstart = 0,
                                 language = "en", separator = " to ", width = NULL
                  )
